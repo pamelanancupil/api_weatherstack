@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "weatherstack"
+    }
+  },
+  "defaultProject": "weatherstack",
+  "cli": {
+    "analytics": false
+  }
 }
