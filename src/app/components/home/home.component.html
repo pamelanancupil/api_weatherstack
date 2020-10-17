@@ -4,7 +4,7 @@
 
   <div class="container-fluid d-flex flex-wrap justify-content-center">
     
-    <div class="card m-5" style="width: 18rem;">
+    <div class="card m-5" style="width: 20rem;">
       <div class="card-body">
         <h5 class="card-body">Busca una ciudad</h5>
       <form (submit)="submitLocation(cityName, countryName)">
@@ -19,7 +19,7 @@
       </div>
     </div>
   
-    <div class="card m-5" style="width: 18rem;">
+    <div class="card m-5" style="width: 20rem;">
       <div class="card-body">
         <h5 class="card-body">Selecciona una ciudad</h5>
         <select class="form-control mt-2">
@@ -32,7 +32,7 @@
       </div>
 
     </div>
-    <div *ngIf="weather" class="card m-5  text-center" style="width: 18rem;">
+    <div *ngIf="weather" class="card m-5  text-center" style="width: 20rem;">
       <div class="card-body">
         <h5 class="card-text">Ciudad: {{weather.location.name}}</h5>
         <h5 class="card-text">País: {{weather.location.country}} </h5>
