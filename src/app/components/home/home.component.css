@@ -1,0 +1,13 @@
+.bg-ctn{
+    background: linear-gradient(317deg, rgba(96,27,156,1) 0%, rgba(67,223,179,1) 100%);
+    height: 100vh;
+}
+
+.btn-color{
+    background: rgba(96,27,156,1) ;
+    border: none;
+}
+
+.color-text{
+    color: #ffffff;
+}
